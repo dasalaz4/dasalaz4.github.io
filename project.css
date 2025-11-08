@@ -1,0 +1,88 @@
+body {
+    background-color: #F6FDFB;
+    background-image: linear-gradient(to bottom, #35DB95, #F6FDFB);
+    color: #03110C;
+    font-family: Georgia, "Times New Roman", serif;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 960px;
+    max-width:2048px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px #333333;
+}
+header {
+    background-color: #35DB95;
+    color: #03110C;
+    background-image: url(sky.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+    color: #8EB4EB;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px 1px #03110C;
+}
+
+
+nav {
+    background-color: #8EB4EB;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: .5em;
+    padding-left: .5em;
+
+}
+
+main {
+    display: block;
+    padding: 1px 20px 20px 20px;
+}
+/* ul {
+
+}
+*/
+dt {
+    color: #35DB95;
+}
+
+footer {
+    font-size: 75%;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    text-align: center;
+    padding: 2em;
+}
+
+.travel {
+    color: #6665E3;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+/*#homehero {
+    height: 300px;
+    background-image: url(airplane.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}*/
