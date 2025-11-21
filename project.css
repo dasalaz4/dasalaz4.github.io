@@ -34,6 +34,12 @@ h2 {
     color: #8EB4EB;
     font-family: Georgia, "Times New Roman", serif;
     text-shadow: 1px 1px 1px #03110C;
+    text-align: center;
+}
+
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #6665E3;
 }
 
 
@@ -55,10 +61,7 @@ main {
     display: block;
     padding: 1px 20px 20px 20px;
 }
-/* ul {
 
-}
-*/
 dt {
     color: #35DB95;
 }
@@ -71,18 +74,124 @@ footer {
     padding: 2em;
 }
 
+video {
+    float: right;
+    margin: 1em;
+}
+
+form {
+    width: 60%;
+    max-width: 30em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 6em 1fr;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.5em 0;
+    list-style: none;
+}
+
+details p {
+    padding-left: 1em;
+    margin: 0.25em 0 0 0;
+}
+
+.center-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 1em;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.center-form input, .center-form button {
+    width: 100%;
+    margin-top: 0.5em;
+    padding: o.5em;
+    font-size: 1em;
+}
+
 .travel {
     color: #6665E3;
     font-weight: bold;
 }
 
+.boxed-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    gap: 1em;
+    border: 2px solid #ccc;
+    padding: 1em;
+    border-radius: 10px;
+    background: #FFFFFF;
+    align-items: flex-start;
+}
+
+.box img {
+    width: 300px;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.box .text {
+    flex: 1;
+}
+
+.box h3 {
+    margin: 0 0 0.4em;
+    font-size: 1.2em;
+}
+
+.box p {
+    margin: 0;
+    color: #444;
+    line-height: 1.4;
+}
+
+.link {
+    text-align: center;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 1em;
+    align-items: center;
+}
+
+.text-box {
+    background: #FFFFFF;
+    padding: 1em;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    line-height: 1.4;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
 #contact {
     font-size: 90%;
 }
-
-/*#homehero {
-    height: 300px;
-    background-image: url(airplane.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}*/
